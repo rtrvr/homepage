@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "service": "서비스",
+    "about": "회사소개",
+    "contact": "문의"
+  },
+  "hero": {
+    "title1": "더 건강한 내일을",
+    "title2": "함께 만들어갑니다",
+    "subtitle": "pitcrew는 기술로 일상의 건강 관리를 혁신합니다",
+    "cta": "서비스 알아보기"
+  },
+  "service": {
+    "label": "Our Service",
+    "title": "필로 Pillo",
+    "description": "똑똑한 약 복용 알림으로 건강한 습관을 만드세요",
+    "feature1": {
+      "title": "스마트 알림",
+      "description": "개인 맞춤 복용 시간에 정확하게 알려드립니다"
+    },
+    "feature2": {
+      "title": "복용 기록",
+      "description": "복용 이력을 자동으로 기록하고 분석합니다"
+    },
+    "feature3": {
+      "title": "건강 리포트",
+      "description": "복용 패턴을 분석하여 인사이트를 제공합니다"
+    },
+    "download": "지금 무료로 시작하세요"
+  },
+  "about": {
+    "label": "About Us",
+    "title": "pitcrew",
+    "description": "우리는 기술을 통해 모든 사람이 쉽고 편리하게 건강을 관리할 수 있는 세상을 만듭니다.",
+    "mission": {
+      "title": "Mission",
+      "description": "헬스케어의 디지털 혁신을 선도합니다"
+    },
+    "value1": {
+      "title": "사용자 중심",
+      "description": "모든 의사결정의 중심에 사용자가 있습니다"
+    },
+    "value2": {
+      "title": "신뢰와 안전",
+      "description": "개인 건강 정보를 안전하게 보호합니다"
+    },
+    "value3": {
+      "title": "지속적 혁신",
+      "description": "더 나은 서비스를 위해 끊임없이 진화합니다"
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "함께해요",
+    "address": {
+      "title": "오피스",
+      "line1": "서울시 성동구 뚝섬로 13길 38",
+      "line2": "(성수동 2가)"
+    },
+    "email": {
+      "title": "이메일"
+    }
+  },
+  "footer": {
+    "company": "(주)피트크루",
+    "service": "필로 서비스",
+    "serviceIntro": "서비스 소개",
+    "aboutUs": "회사 소개",
+    "contactUs": "문의하기",
+    "copyright": "© {{year}} pitcrew. All rights reserved."
+  }
+}

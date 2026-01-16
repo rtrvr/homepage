@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "service": "Service",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title1": "Building a Healthier",
+    "title2": "Tomorrow Together",
+    "subtitle": "pitcrew innovates daily healthcare through technology",
+    "cta": "Explore Service"
+  },
+  "service": {
+    "label": "Our Service",
+    "title": "Pillo",
+    "description": "Build healthy habits with smart medication reminders",
+    "feature1": {
+      "title": "Smart Reminders",
+      "description": "Get personalized alerts at the right time"
+    },
+    "feature2": {
+      "title": "Track History",
+      "description": "Automatically log and analyze your medication history"
+    },
+    "feature3": {
+      "title": "Health Reports",
+      "description": "Get insights from your medication patterns"
+    },
+    "download": "Start Free Today"
+  },
+  "about": {
+    "label": "About Us",
+    "title": "pitcrew",
+    "description": "We're building a world where everyone can easily manage their health through technology.",
+    "mission": {
+      "title": "Mission",
+      "description": "Leading digital innovation in healthcare"
+    },
+    "value1": {
+      "title": "User-Centric",
+      "description": "Users are at the center of every decision"
+    },
+    "value2": {
+      "title": "Trust & Safety",
+      "description": "We protect personal health data with care"
+    },
+    "value3": {
+      "title": "Continuous Innovation",
+      "description": "We constantly evolve to serve you better"
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Get in Touch",
+    "address": {
+      "title": "Office",
+      "line1": "38, Ttukseom-ro 13-gil,",
+      "line2": "Seongdong-gu, Seoul"
+    },
+    "email": {
+      "title": "Email"
+    }
+  },
+  "footer": {
+    "company": "pitcrew Inc.",
+    "service": "Pillo Service",
+    "serviceIntro": "Service",
+    "aboutUs": "About",
+    "contactUs": "Contact",
+    "copyright": "© {{year}} pitcrew. All rights reserved."
+  }
+}
