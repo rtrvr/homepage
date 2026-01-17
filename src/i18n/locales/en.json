@@ -2,6 +2,7 @@
   "nav": {
     "service": "Service",
     "about": "About",
+    "culture": "Culture",
     "contact": "Contact"
   },
   "hero": {
@@ -47,6 +48,33 @@
     "value3": {
       "title": "Continuous Innovation",
       "description": "We constantly evolve to serve you better"
+    }
+  },
+  "culture": {
+    "label": "Culture",
+    "title": "Our Values",
+    "subtitle": "How pitcrew works",
+    "values": {
+      "loveUsers": {
+        "title": "Love Users",
+        "description": "We deeply understand users' pain points, needs, and desires through feedback and thoughtful consideration."
+      },
+      "positiveEnergy": {
+        "title": "Positive Energy",
+        "description": "We empower teammates to keep going with 'we can do more' mindset. No avoidance, cynicism, or resignation."
+      },
+      "proactive": {
+        "title": "Proactive",
+        "description": "We don't hesitate to take action for better ways of doing things."
+      },
+      "focus": {
+        "title": "Focus",
+        "description": "We clearly identify and concentrate on the most important problems to achieve results."
+      },
+      "teamFirst": {
+        "title": "Team First",
+        "description": "We prioritize team and company success over individual achievements and growth."
+      }
     }
   },
   "contact": {

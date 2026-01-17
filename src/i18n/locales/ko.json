@@ -2,6 +2,7 @@
   "nav": {
     "service": "서비스",
     "about": "회사소개",
+    "culture": "컬쳐",
     "contact": "문의"
   },
   "hero": {
@@ -47,6 +48,33 @@
     "value3": {
       "title": "지속적 혁신",
       "description": "더 나은 서비스를 위해 끊임없이 진화합니다"
+    }
+  },
+  "culture": {
+    "label": "Culture",
+    "title": "우리의 가치",
+    "subtitle": "pitcrew가 일하는 방식",
+    "values": {
+      "loveUsers": {
+        "title": "Love Users",
+        "description": "사용자의 불편함, 필요, 원하는 것을 알아내기 위해 피드백 등을 기반으로 깊이 고민한다."
+      },
+      "positiveEnergy": {
+        "title": "Positive Energy",
+        "description": "동료가 좌절해도 힘낼 수 있게 \"더 해볼 수 있다\"는 마음을 주는 영향력. 회피, 냉소, 체념 금지."
+      },
+      "proactive": {
+        "title": "Proactive",
+        "description": "더 나은 방식을 위해 행동하는 것을 주저하지 않는다."
+      },
+      "focus": {
+        "title": "Focus",
+        "description": "성과를 내기 위해 지금 가장 중요한 문제가 무엇인지 명확히 인식하고 집중한다."
+      },
+      "teamFirst": {
+        "title": "Team First",
+        "description": "혼자만의 성과, 성장보다 팀과 회사의 성과와 성장을 우선한다."
+      }
     }
   },
   "contact": {

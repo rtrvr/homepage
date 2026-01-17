@@ -342,6 +342,10 @@ html {
   background: var(--success);
 }
 
+.section-label.purple {
+  background: linear-gradient(135deg, #8B5CF6 0%, #6366F1 100%);
+}
+
 .section-title {
   font-size: 48px;
   font-weight: 800;
@@ -622,6 +626,170 @@ html {
   line-height: 1.6;
 }
 
+/* Culture Section */
+.culture {
+  padding: 120px 0;
+  background: linear-gradient(180deg, var(--bg-white) 0%, var(--bg-light) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.culture::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: radial-gradient(rgba(139, 92, 246, 0.03) 1px, transparent 1px);
+  background-size: 24px 24px;
+  pointer-events: none;
+}
+
+.culture-header {
+  text-align: center;
+  margin-bottom: 64px;
+  position: relative;
+}
+
+.culture-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  position: relative;
+}
+
+.culture-grid > .culture-card:nth-child(4),
+.culture-grid > .culture-card:nth-child(5) {
+  grid-column: span 1;
+}
+
+@media (min-width: 1025px) {
+  .culture-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .culture-grid > .culture-card:nth-child(1),
+  .culture-grid > .culture-card:nth-child(2),
+  .culture-grid > .culture-card:nth-child(3) {
+    grid-column: span 2;
+  }
+
+  .culture-grid > .culture-card:nth-child(4) {
+    grid-column: 2 / span 2;
+  }
+
+  .culture-grid > .culture-card:nth-child(5) {
+    grid-column: 4 / span 2;
+  }
+}
+
+.culture-card {
+  position: relative;
+  padding: 40px 32px;
+  background: var(--bg-white);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--border);
+  transition: var(--transition);
+  overflow: hidden;
+}
+
+.culture-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.culture-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-xl);
+  border-color: transparent;
+}
+
+.culture-card:hover::before {
+  opacity: 1;
+}
+
+.culture-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  transition: var(--transition);
+}
+
+.culture-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.culture-icon.love {
+  background: linear-gradient(135deg, #FEE2E2 0%, #FECACA 100%);
+  color: #DC2626;
+}
+
+.culture-icon.energy {
+  background: linear-gradient(135deg, #FEF3C7 0%, #FDE68A 100%);
+  color: #D97706;
+}
+
+.culture-icon.proactive {
+  background: linear-gradient(135deg, #DBEAFE 0%, #BFDBFE 100%);
+  color: #2563EB;
+}
+
+.culture-icon.focus {
+  background: linear-gradient(135deg, #E0E7FF 0%, #C7D2FE 100%);
+  color: #7C3AED;
+}
+
+.culture-icon.team {
+  background: linear-gradient(135deg, #D1FAE5 0%, #A7F3D0 100%);
+  color: #059669;
+}
+
+.culture-card:hover .culture-icon {
+  transform: scale(1.1);
+}
+
+.culture-content h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+  letter-spacing: -0.5px;
+}
+
+.culture-content p {
+  font-size: 15px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.culture-number {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  font-size: 48px;
+  font-weight: 800;
+  color: var(--bg-subtle);
+  line-height: 1;
+  transition: var(--transition);
+}
+
+.culture-card:hover .culture-number {
+  color: var(--border);
+}
+
 /* Contact Section */
 .contact {
   padding: 120px 0;
@@ -876,6 +1044,25 @@ html {
     gap: 40px;
   }
 
+  .culture {
+    padding: 80px 0;
+  }
+
+  .culture-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .culture-card {
+    padding: 32px 24px;
+  }
+
+  .culture-number {
+    font-size: 36px;
+    top: 20px;
+    right: 20px;
+  }
+
   .contact {
     padding: 80px 0;
   }
@@ -947,6 +1134,24 @@ html {
 
   .download-title {
     font-size: 24px;
+  }
+
+  .culture-content h3 {
+    font-size: 18px;
+  }
+
+  .culture-content p {
+    font-size: 14px;
+  }
+
+  .culture-icon {
+    width: 52px;
+    height: 52px;
+  }
+
+  .culture-icon svg {
+    width: 24px;
+    height: 24px;
   }
 
   .contact-card {
