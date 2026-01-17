@@ -50,6 +50,34 @@
       "description": "We constantly evolve to serve you better"
     }
   },
+  "testimonials": {
+    "label": "Reviews",
+    "title": "Loved by Users",
+    "subtitle": "See what our users are saying",
+    "rating": "on Google Play",
+    "reviews": "reviews",
+    "cta": "Read more reviews",
+    "items": [
+      {
+        "name": "Sarah M.",
+        "role": "Busy Mom",
+        "text": "It's simple to use and quick! As a busy mom, this app takes the guesswork out of when/if I took my meds. Especially while recovering from surgery.",
+        "rating": 5
+      },
+      {
+        "name": "Michael R.",
+        "role": "Health Enthusiast",
+        "text": "Pillo is marketed as a medication Tracker App. In reality, it is so much more than that. It is a HEALTH APP. Pillo does most of what I need.",
+        "rating": 5
+      },
+      {
+        "name": "Emily K.",
+        "role": "Premium User",
+        "text": "Extremely easy to use. I love the reminders and how easy it is to push out the time when you need a little flexibility. Highly recommend!",
+        "rating": 5
+      }
+    ]
+  },
   "culture": {
     "label": "Culture",
     "title": "Our Values",
