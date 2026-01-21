@@ -79,7 +79,7 @@ function App() {
         </div>
         <div className="container">
           <div className="hero-content">
-            <div className="hero-badge">Healthcare Innovation</div>
+            <div className="hero-badge">AI-Powered Healthcare</div>
             <h1 className="hero-title">
               <span className="hero-title-line">{t('hero.title1')}</span>
               <span className="hero-title-line gradient-text">{t('hero.title2')}</span>
@@ -655,7 +655,7 @@ function App() {
           <div className="footer-main">
             <div className="footer-brand">
               <span className="footer-logo">pitcrew</span>
-              <p className="footer-tagline">Healthcare Innovation</p>
+              <p className="footer-tagline">AI-Powered Healthcare</p>
             </div>
             <div className="footer-links-grid">
               <div className="footer-col">
