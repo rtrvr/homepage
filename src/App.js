@@ -48,6 +48,7 @@ function App() {
                 <a href="#service">{t('nav.service')}</a>
                 <a href="#about">{t('nav.about')}</a>
                 <a href="#culture">{t('nav.culture')}</a>
+                <a href="#team">{t('nav.team')}</a>
                 <a href="#contact">{t('nav.contact')}</a>
               </div>
               <div className="lang-switcher">
@@ -114,13 +115,84 @@ function App() {
         </div>
       </section>
 
+      {/* Problem Section */}
+      <section className="problem">
+        <div className="container">
+          <ScrollReveal>
+            <div className="problem-header">
+              <span className="section-label">{t('problem.label')}</span>
+              <h2 className="section-title">{t('problem.title')}</h2>
+              <p className="problem-subtitle">{t('problem.subtitle')}</p>
+            </div>
+          </ScrollReveal>
+
+          <div className="problem-content">
+            <ScrollReveal delay={100}>
+              <div className="problem-description">
+                <p>{t('problem.description')}</p>
+              </div>
+            </ScrollReveal>
+
+            <div className="problem-grid">
+              <ScrollReveal delay={200}>
+                <div className="solution-card">
+                  <div className="solution-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                      <path d="M9 12l2 2 4-4"/>
+                      <path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9c1.73 0 3.35.49 4.72 1.34"/>
+                    </svg>
+                  </div>
+                  <h3>{t('problem.solution.title')}</h3>
+                  <p>{t('problem.solution.description')}</p>
+                </div>
+              </ScrollReveal>
+
+              <ScrollReveal delay={300}>
+                <div className="target-card">
+                  <h3>{t('problem.target.title')}</h3>
+                  <ul className="target-list">
+                    <li>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <polyline points="20 6 9 17 4 12"/>
+                      </svg>
+                      {t('problem.target.item1')}
+                    </li>
+                    <li>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <polyline points="20 6 9 17 4 12"/>
+                      </svg>
+                      {t('problem.target.item2')}
+                    </li>
+                    <li>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <polyline points="20 6 9 17 4 12"/>
+                      </svg>
+                      {t('problem.target.item3')}
+                    </li>
+                    <li>
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <polyline points="20 6 9 17 4 12"/>
+                      </svg>
+                      {t('problem.target.item4')}
+                    </li>
+                  </ul>
+                </div>
+              </ScrollReveal>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Service Section - Pillo */}
       <section id="service" className="service">
         <div className="container">
           <ScrollReveal>
             <div className="service-header">
               <span className="section-label">{t('service.label')}</span>
-              <h2 className="section-title">{t('service.title')}</h2>
+              <div className="service-title-row">
+                <img src="/angry.png" alt="Pillo App Icon" className="pillo-icon" />
+                <h2 className="section-title">{t('service.title')}</h2>
+              </div>
               <p className="section-description">
                 {t('service.description')}
               </p>
@@ -167,6 +239,21 @@ function App() {
                   <p>{t('service.feature3.description')}</p>
                 </div>
               </ScrollReveal>
+
+              <ScrollReveal delay={300}>
+                <div className="feature-card">
+                  <div className="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                      <path d="M12 2a4 4 0 0 1 4 4v2a4 4 0 0 1-8 0V6a4 4 0 0 1 4-4z"/>
+                      <path d="M16 14H8a4 4 0 0 0-4 4v2h16v-2a4 4 0 0 0-4-4z"/>
+                      <circle cx="18" cy="8" r="3"/>
+                      <path d="M18 6v4M16 8h4"/>
+                    </svg>
+                  </div>
+                  <h3>{t('service.feature4.title')}</h3>
+                  <p>{t('service.feature4.description')}</p>
+                </div>
+              </ScrollReveal>
             </div>
 
             <div className="download-section">
@@ -190,20 +277,15 @@ function App() {
                       <span className="btn-store">Google Play</span>
                     </div>
                   </a>
-                  <a
-                    href="https://apps.apple.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="download-btn"
-                  >
+                  <div className="download-btn coming-soon">
                     <svg viewBox="0 0 24 24" fill="currentColor">
                       <path d="M18.71,19.5C17.88,20.74 17,21.95 15.66,21.97C14.32,22 13.89,21.18 12.37,21.18C10.84,21.18 10.37,21.95 9.1,22C7.79,22.05 6.8,20.68 5.96,19.47C4.25,17 2.94,12.45 4.7,9.39C5.57,7.87 7.13,6.91 8.82,6.88C10.1,6.86 11.32,7.75 12.11,7.75C12.89,7.75 14.37,6.68 15.92,6.84C16.57,6.87 18.39,7.1 19.56,8.82C19.47,8.88 17.39,10.1 17.41,12.63C17.44,15.65 20.06,16.66 20.09,16.67C20.06,16.74 19.67,18.11 18.71,19.5M13,3.5C13.73,2.67 14.94,2.04 15.94,2C16.07,3.17 15.6,4.35 14.9,5.19C14.21,6.04 13.07,6.7 11.95,6.61C11.8,5.46 12.36,4.26 13,3.5Z"/>
                     </svg>
                     <div className="btn-text">
-                      <span className="btn-label">Download on the</span>
+                      <span className="btn-label">Coming Soon</span>
                       <span className="btn-store">App Store</span>
                     </div>
-                  </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -477,13 +559,13 @@ function App() {
             <ScrollReveal delay={400}>
               <div className="culture-card">
                 <div className="culture-icon team">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-                  <circle cx="9" cy="7" r="4"/>
-                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
-                  <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
-                </svg>
-              </div>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                    <circle cx="9" cy="7" r="4"/>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                  </svg>
+                </div>
               <div className="culture-content">
                 <h3>{t('culture.values.teamFirst.title')}</h3>
                 <p>{t('culture.values.teamFirst.description')}</p>
@@ -491,6 +573,36 @@ function App() {
                 <span className="culture-number">05</span>
               </div>
             </ScrollReveal>
+          </div>
+        </div>
+      </section>
+
+      {/* Team Section */}
+      <section id="team" className="team-section">
+        <div className="container">
+          <ScrollReveal>
+            <div className="team-header">
+              <span className="section-label">{t('team.label')}</span>
+              <h2 className="section-title">{t('team.title')}</h2>
+              <p className="section-description">{t('team.subtitle')}</p>
+            </div>
+          </ScrollReveal>
+
+          <div className="team-grid">
+            {[0, 1, 2, 3, 4, 5].map((index) => (
+              <ScrollReveal key={index} delay={index * 100}>
+                <div className="team-card">
+                  <div className="team-avatar">
+                    {t(`team.members.${index}.name`).charAt(0).toUpperCase()}
+                  </div>
+                  <div className="team-info">
+                    <h3>{t(`team.members.${index}.name`)}</h3>
+                    <span className="team-role">{t(`team.members.${index}.role`)}</span>
+                    <p className="team-description">{t(`team.members.${index}.description`)}</p>
+                  </div>
+                </div>
+              </ScrollReveal>
+            ))}
           </div>
         </div>
       </section>

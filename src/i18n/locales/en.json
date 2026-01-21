@@ -3,6 +3,7 @@
     "service": "Service",
     "about": "About",
     "culture": "Culture",
+    "team": "Team",
     "contact": "Contact"
   },
   "hero": {
@@ -10,6 +11,23 @@
     "title2": "Tomorrow Together",
     "subtitle": "pitcrew innovates daily healthcare through technology",
     "cta": "Explore Service"
+  },
+  "problem": {
+    "label": "What We Do",
+    "title": "Improving Medication Adherence",
+    "subtitle": "Taking medication on time is harder than you think",
+    "description": "More than half of chronic disease patients fail to take their prescribed medications properly. In busy daily lives, people forget medication times or struggle to manage multiple medication schedules.",
+    "solution": {
+      "title": "Pillo Solves This",
+      "description": "Our AI-powered smart reminders ensure you never miss your medication. Beyond simple alerts, we provide medication pattern analysis and personalized health insights."
+    },
+    "target": {
+      "title": "Built for You",
+      "item1": "People taking multiple medications daily",
+      "item2": "Busy individuals who often miss medication times",
+      "item3": "Those caring for elderly parents' medication",
+      "item4": "Anyone wanting systematic chronic disease management"
+    }
   },
   "service": {
     "label": "Our Service",
@@ -26,6 +44,10 @@
     "feature3": {
       "title": "Health Reports",
       "description": "Get insights from your medication patterns"
+    },
+    "feature4": {
+      "title": "AI Drug Info",
+      "description": "Check potential drug interactions with AI assistance"
     },
     "download": "Start Free Today"
   },
@@ -104,6 +126,43 @@
         "description": "We prioritize team and company success over individual achievements and growth."
       }
     }
+  },
+  "team": {
+    "label": "Team",
+    "title": "Our Team",
+    "subtitle": "The people building pitcrew",
+    "members": [
+      {
+        "name": "Zach",
+        "role": "CEO",
+        "description": "Leading vision and strategy"
+      },
+      {
+        "name": "Ben",
+        "role": "Tech Lead",
+        "description": "Architecting the technology"
+      },
+      {
+        "name": "Jackie",
+        "role": "Designer",
+        "description": "Designing user experiences"
+      },
+      {
+        "name": "jinukeu",
+        "role": "Android Developer",
+        "description": "Building the Android app"
+      },
+      {
+        "name": "Kai",
+        "role": "iOS Developer",
+        "description": "Building the iOS app"
+      },
+      {
+        "name": "Lena",
+        "role": "Marketing",
+        "description": "Driving brand and growth"
+      }
+    ]
   },
   "contact": {
     "label": "Contact",
