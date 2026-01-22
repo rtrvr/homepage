@@ -135,32 +135,38 @@
       {
         "name": "Zach",
         "role": "CEO",
-        "description": "Leading vision and strategy"
+        "description": "Leading vision and strategy with startup experience",
+        "linkedin": "https://www.linkedin.com/in/oniunbelievable/"
       },
       {
         "name": "Ben",
         "role": "Tech Lead",
-        "description": "Architecting the technology"
+        "description": "Architecting the technology",
+        "linkedin": "https://www.linkedin.com/in/gobenpark"
       },
       {
         "name": "Jackie",
-        "role": "Designer",
-        "description": "Designing user experiences"
+        "role": "Product Designer",
+        "description": "Crafting intuitive healthcare UX",
+        "linkedin": "https://www.linkedin.com/in/bang-jiwon-0729791a9/"
       },
       {
-        "name": "jinukeu",
+        "name": "Jinukeu",
         "role": "Android Developer",
-        "description": "Building the Android app"
+        "description": "Building native Android experiences",
+        "linkedin": "https://www.linkedin.com/in/jinukeu/"
       },
       {
         "name": "Kai",
         "role": "iOS Developer",
-        "description": "Building the iOS app"
+        "description": "Building native iOS experiences",
+        "linkedin": ""
       },
       {
         "name": "Lena",
         "role": "Marketing",
-        "description": "Driving brand and growth"
+        "description": "Driving user acquisition and brand growth",
+        "linkedin": ""
       }
     ]
   },

@@ -603,6 +603,54 @@ html {
   line-height: 1.6;
 }
 
+/* App Screenshots */
+.app-screenshots {
+  margin: 48px 0;
+  overflow: hidden;
+}
+
+.screenshots-scroll {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding: 16px 0;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.screenshots-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.screenshot-item {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+}
+
+.screenshot-item img {
+  height: 480px;
+  width: auto;
+  border-radius: 24px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.screenshot-item img:hover {
+  transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+  .screenshot-item img {
+    height: 360px;
+    border-radius: 16px;
+  }
+
+  .app-screenshots {
+    margin: 32px 0;
+  }
+}
+
 /* Download Section */
 .download-section {
   background: linear-gradient(135deg, var(--bg-dark) 0%, #1E293B 100%);
@@ -1280,7 +1328,35 @@ html {
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--text-primary);
+  margin: 0;
+}
+
+.team-name-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
   margin-bottom: 4px;
+}
+
+.linkedin-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  color: #0077b5;
+  transition: all 0.2s ease;
+}
+
+.linkedin-link:hover {
+  color: #005885;
+  transform: scale(1.1);
+}
+
+.linkedin-link svg {
+  width: 18px;
+  height: 18px;
 }
 
 .team-role {

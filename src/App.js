@@ -256,11 +256,27 @@ function App() {
               </ScrollReveal>
             </div>
 
+            <ScrollReveal delay={400}>
+              <div className="app-screenshots">
+                <div className="screenshots-scroll">
+                  {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
+                    <div key={num} className="screenshot-item">
+                      <img
+                        src={`/preview/pillo-${num}.webp`}
+                        alt={`Pillo app screenshot ${num}`}
+                        loading="lazy"
+                      />
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </ScrollReveal>
+
             <div className="download-section">
               <div className="download-content">
                 <div className="download-text-wrapper">
                   <h3 className="download-title">{t('service.download')}</h3>
-                  <p className="download-subtitle">Available on iOS & Android</p>
+                  <p className="download-subtitle">Launched on Google Play · 100K+ Downloads</p>
                 </div>
                 <div className="download-buttons">
                   <a
@@ -589,20 +605,38 @@ function App() {
           </ScrollReveal>
 
           <div className="team-grid">
-            {[0, 1, 2, 3, 4, 5].map((index) => (
-              <ScrollReveal key={index} delay={index * 100}>
-                <div className="team-card">
-                  <div className="team-avatar">
-                    {t(`team.members.${index}.name`).charAt(0).toUpperCase()}
+            {[0, 1, 2, 3, 4, 5].map((index) => {
+              const linkedin = t(`team.members.${index}.linkedin`);
+              return (
+                <ScrollReveal key={index} delay={index * 100}>
+                  <div className="team-card">
+                    <div className="team-avatar">
+                      {t(`team.members.${index}.name`).charAt(0).toUpperCase()}
+                    </div>
+                    <div className="team-info">
+                      <div className="team-name-row">
+                        <h3>{t(`team.members.${index}.name`)}</h3>
+                        {linkedin && (
+                          <a
+                            href={linkedin}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="linkedin-link"
+                            aria-label="LinkedIn Profile"
+                          >
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                          </a>
+                        )}
+                      </div>
+                      <span className="team-role">{t(`team.members.${index}.role`)}</span>
+                      <p className="team-description">{t(`team.members.${index}.description`)}</p>
+                    </div>
                   </div>
-                  <div className="team-info">
-                    <h3>{t(`team.members.${index}.name`)}</h3>
-                    <span className="team-role">{t(`team.members.${index}.role`)}</span>
-                    <p className="team-description">{t(`team.members.${index}.description`)}</p>
-                  </div>
-                </div>
-              </ScrollReveal>
-            ))}
+                </ScrollReveal>
+              );
+            })}
           </div>
         </div>
       </section>

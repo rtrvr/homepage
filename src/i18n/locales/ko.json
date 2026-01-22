@@ -135,32 +135,38 @@
       {
         "name": "Zach",
         "role": "CEO",
-        "description": "비전과 전략을 이끕니다"
+        "description": "스타트업 경험을 바탕으로 비전과 전략을 이끕니다",
+        "linkedin": "https://www.linkedin.com/in/oniunbelievable/"
       },
       {
         "name": "Ben",
         "role": "Tech Lead",
-        "description": "기술 아키텍처를 설계합니다"
+        "description": "기술 아키텍처를 설계합니다",
+        "linkedin": "https://www.linkedin.com/in/gobenpark"
       },
       {
         "name": "Jackie",
-        "role": "Designer",
-        "description": "사용자 경험을 디자인합니다"
+        "role": "Product Designer",
+        "description": "직관적인 헬스케어 UX를 설계합니다",
+        "linkedin": "https://www.linkedin.com/in/bang-jiwon-0729791a9/"
       },
       {
-        "name": "jinukeu",
+        "name": "Jinukeu",
         "role": "Android Developer",
-        "description": "안드로이드 앱을 개발합니다"
+        "description": "네이티브 안드로이드 경험을 구축합니다",
+        "linkedin": "https://www.linkedin.com/in/jinukeu/"
       },
       {
         "name": "Kai",
         "role": "iOS Developer",
-        "description": "iOS 앱을 개발합니다"
+        "description": "네이티브 iOS 경험을 구축합니다",
+        "linkedin": ""
       },
       {
         "name": "Lena",
         "role": "Marketing",
-        "description": "브랜드와 성장을 담당합니다"
+        "description": "사용자 확보와 브랜드 성장을 담당합니다",
+        "linkedin": ""
       }
     ]
   },
