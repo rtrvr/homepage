@@ -705,7 +705,10 @@ function App() {
             </div>
           </div>
           <div className="footer-bottom">
-            <p className="footer-company">{t('footer.company')}</p>
+            <div className="footer-business-info">
+              <p>{t('footer.company')} (Pitcrew Inc.) | {t('footer.ceo')}: 이정언</p>
+              <p>{t('footer.businessNumber')}: 478-88-01971</p>
+            </div>
             <p className="footer-copyright">{t('footer.copyright', { year: new Date().getFullYear() })}</p>
           </div>
         </div>

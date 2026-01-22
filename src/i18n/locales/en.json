@@ -184,6 +184,8 @@
   },
   "footer": {
     "company": "pitcrew Inc.",
+    "ceo": "CEO",
+    "businessNumber": "Business Registration",
     "service": "Pillo Service",
     "serviceIntro": "Service",
     "aboutUs": "About",

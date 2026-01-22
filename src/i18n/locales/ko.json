@@ -183,7 +183,9 @@
     }
   },
   "footer": {
-    "company": "(주)피트크루",
+    "company": "주식회사 피트크루",
+    "ceo": "대표",
+    "businessNumber": "사업자등록번호",
     "service": "필로 서비스",
     "serviceIntro": "서비스 소개",
     "aboutUs": "회사 소개",
