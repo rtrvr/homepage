@@ -605,7 +605,7 @@ function App() {
           </ScrollReveal>
 
           <div className="team-grid">
-            {[0, 1, 2, 3, 4, 5].map((index) => {
+            {[0, 1, 2, 3, 4].map((index) => {
               const linkedin = t(`team.members.${index}.linkedin`);
               return (
                 <ScrollReveal key={index} delay={index * 100}>
