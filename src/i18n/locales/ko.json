@@ -135,31 +135,31 @@
       {
         "name": "Zach",
         "role": "CEO",
-        "description": "스타트업 경험을 바탕으로 비전과 전략을 이끕니다",
+        "description": "실무 욕심 가득한 창업가, 아직도 손에서 일을 못 놓습니다",
         "linkedin": "https://www.linkedin.com/in/oniunbelievable/"
       },
       {
         "name": "Ben",
         "role": "Tech Lead",
-        "description": "기술 아키텍처를 설계합니다",
+        "description": "앞에선 AI가 일하고, 뒤에선 내가 일합니다 (근데 둘 다 저예요)",
         "linkedin": "https://www.linkedin.com/in/gobenpark"
       },
       {
         "name": "Jackie",
         "role": "Product Designer",
-        "description": "직관적인 헬스케어 UX를 설계합니다",
+        "description": "디자인 외길인생, 댄싱머신을 꿈꾸는 중",
         "linkedin": "https://www.linkedin.com/in/bang-jiwon-0729791a9/"
       },
       {
         "name": "Jinukeu",
         "role": "Android Developer",
-        "description": "네이티브 안드로이드 경험을 구축합니다",
+        "description": "사이드 프로젝트로 4천 유저, 이제 더 큰 가치를 만듭니다",
         "linkedin": "https://www.linkedin.com/in/jinukeu/"
       },
       {
         "name": "Lena",
         "role": "Marketing",
-        "description": "사용자 확보와 브랜드 성장을 담당합니다",
+        "description": "배움과 성장이 원동력, 혼자보다 함께 더 멀리 갑니다",
         "linkedin": ""
       }
     ]
