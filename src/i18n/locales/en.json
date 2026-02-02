@@ -135,32 +135,22 @@
       {
         "name": "Zach",
         "role": "CEO",
-        "description": "A hands-on founder who still can't let go of the work",
-        "linkedin": "https://www.linkedin.com/in/oniunbelievable/"
+        "description": "A hands-on founder who still can't let go of the work"
       },
       {
         "name": "Ben",
         "role": "Tech Lead",
-        "description": "AI works up front, I work behind the scenes (but both are me)",
-        "linkedin": "https://www.linkedin.com/in/gobenpark"
+        "description": "AI works up front, I work behind the scenes (but both are me)"
       },
       {
         "name": "Jackie",
         "role": "Product Designer",
-        "description": "Design is my life, but I dream of becoming a dancing machine",
-        "linkedin": "https://www.linkedin.com/in/bang-jiwon-0729791a9/"
+        "description": "Design is my life, but I dream of becoming a dancing machine"
       },
       {
         "name": "Jinukeu",
         "role": "Android Developer",
-        "description": "4K users from side projects, now building something bigger",
-        "linkedin": "https://www.linkedin.com/in/jinukeu/"
-      },
-      {
-        "name": "Lena",
-        "role": "Marketing",
-        "description": "Learning fuels me, together we go further",
-        "linkedin": ""
+        "description": "4K users from side projects, now building something bigger"
       }
     ]
   },
