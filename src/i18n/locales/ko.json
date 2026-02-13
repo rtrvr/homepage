@@ -7,10 +7,16 @@
     "contact": "문의"
   },
   "hero": {
-    "title1": "더 건강한 내일을",
-    "title2": "함께 만들어갑니다",
-    "subtitle": "pitcrew는 기술로 일상의 건강 관리를 혁신합니다",
-    "cta": "서비스 알아보기"
+    "badge": "AI 복약 관리",
+    "title1": "약 먹을 시간,",
+    "title2": "AI가 챙겨드립니다",
+    "subtitle": "10만 명이 선택한 AI 복약 관리 앱, Pillo",
+    "cta": "무료 다운로드",
+    "stats": {
+      "downloads": "다운로드",
+      "rating": "앱 평점",
+      "reviews": "리뷰"
+    }
   },
   "problem": {
     "label": "What We Do",
@@ -49,7 +55,12 @@
       "title": "AI 약물 정보",
       "description": "복용 전 약물 상호작용 정보를 AI로 확인하세요"
     },
-    "download": "지금 무료로 시작하세요"
+    "download": "지금 무료로 시작하세요",
+    "downloadSubtitle": "Google Play 출시 · 100K+ 다운로드",
+    "getItOn": "다운로드",
+    "googlePlay": "Google Play",
+    "comingSoon": "출시 예정",
+    "appStore": "App Store"
   },
   "about": {
     "label": "About Us",
@@ -78,24 +89,25 @@
     "subtitle": "실제 사용자들의 후기를 확인하세요",
     "rating": "Google Play 평점",
     "reviews": "개의 리뷰",
+    "downloads": "다운로드",
     "cta": "더 많은 리뷰 보기",
     "items": [
       {
-        "name": "Sarah M.",
-        "role": "바쁜 엄마",
-        "text": "사용하기 정말 간단하고 빨라요! 바쁜 엄마로서, 이 앱은 약을 먹었는지 안 먹었는지 고민할 필요를 없애줬어요. 특히 수술 후 회복 중일 때 정말 유용했습니다.",
+        "name": "김수진",
+        "role": "만성질환 관리 중",
+        "text": "매일 약 3가지를 먹어야 하는데 시간마다 다 달라서 항상 헷갈렸어요. Pillo 쓰고 나서 한 번도 안 빠뜨렸습니다. 부모님께도 추천했어요.",
         "rating": 5
       },
       {
-        "name": "Michael R.",
-        "role": "건강 매니아",
-        "text": "Pillo는 약 복용 트래커 앱으로 마케팅되지만, 실제로는 그 이상입니다. 진정한 건강 앱이에요. 제가 필요한 대부분의 기능을 제공합니다.",
+        "name": "이준혁",
+        "role": "직장인",
+        "text": "단순한 알림 앱인 줄 알았는데 약물 상호작용까지 알려줘서 놀랐어요. 새로운 약 처방받을 때마다 꼭 확인합니다. 이거 진짜 필수 앱이에요.",
         "rating": 5
       },
       {
-        "name": "Emily K.",
-        "role": "프리미엄 사용자",
-        "text": "사용하기 매우 쉬워요. 알림 기능과 필요할 때 시간을 유연하게 조절할 수 있는 점이 정말 좋아요. 강력 추천합니다!",
+        "name": "박혜원",
+        "role": "간호사",
+        "text": "부모님 복약 관리가 늘 걱정이었는데, 깔끔한 UI 덕분에 어머니도 쉽게 사용하세요. 복용 기록이 자동으로 쌓이니까 병원 갈 때도 유용합니다.",
         "rating": 5
       }
     ]
@@ -174,6 +186,9 @@
     "serviceIntro": "서비스 소개",
     "aboutUs": "회사 소개",
     "contactUs": "문의하기",
-    "copyright": "© {{year}} pitcrew. All rights reserved."
+    "copyright": "© {{year}} pitcrew. All rights reserved.",
+    "tagline": "AI 복약 관리",
+    "companyHeading": "회사",
+    "productHeading": "서비스"
   }
 }

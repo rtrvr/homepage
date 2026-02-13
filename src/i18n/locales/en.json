@@ -7,10 +7,16 @@
     "contact": "Contact"
   },
   "hero": {
-    "title1": "Building a Healthier",
-    "title2": "Tomorrow Together",
-    "subtitle": "pitcrew innovates daily healthcare through technology",
-    "cta": "Explore Service"
+    "badge": "AI-Powered Healthcare",
+    "title1": "Never Miss Your",
+    "title2": "Medication Again",
+    "subtitle": "Trusted by 100K+ users — the AI-powered medication management app, Pillo",
+    "cta": "Free Download",
+    "stats": {
+      "downloads": "Downloads",
+      "rating": "App Rating",
+      "reviews": "Reviews"
+    }
   },
   "problem": {
     "label": "What We Do",
@@ -49,7 +55,12 @@
       "title": "AI Drug Info",
       "description": "Check potential drug interactions with AI assistance"
     },
-    "download": "Start Free Today"
+    "download": "Start Free Today",
+    "downloadSubtitle": "Launched on Google Play · 100K+ Downloads",
+    "getItOn": "GET IT ON",
+    "googlePlay": "Google Play",
+    "comingSoon": "Coming Soon",
+    "appStore": "App Store"
   },
   "about": {
     "label": "About Us",
@@ -78,6 +89,7 @@
     "subtitle": "See what our users are saying",
     "rating": "on Google Play",
     "reviews": "reviews",
+    "downloads": "downloads",
     "cta": "Read more reviews",
     "items": [
       {
@@ -174,6 +186,9 @@
     "serviceIntro": "Service",
     "aboutUs": "About",
     "contactUs": "Contact",
-    "copyright": "© {{year}} pitcrew. All rights reserved."
+    "copyright": "© {{year}} pitcrew. All rights reserved.",
+    "tagline": "AI-Powered Healthcare",
+    "companyHeading": "Company",
+    "productHeading": "Product"
   }
 }
