@@ -8,7 +8,6 @@
 | ID | Time | T | Title | Read |
 |----|------|---|-------|------|
 | #276 | 10:18 AM | 🟣 | Dynamic Year Variable Added to Copyright String | ~303 |
-| #275 | " | ✅ | Copyright Year Dynamically Parameterized in Korean Locale | ~240 |
 | #273 | 10:17 AM | ✅ | Company Address Updated to Street Address Format | ~285 |
 | #266 | 10:12 AM | 🟣 | Internationalization Structure Created with Korean Translations | ~499 |
 | #265 | 10:11 AM | 🟣 | English Translation Dictionary Created | ~434 |
