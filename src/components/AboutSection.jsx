@@ -5,18 +5,18 @@ function AboutSection() {
   const { t } = useTranslation();
 
   return (
-    <section id="about" className="about">
+    <section id="about" className="section about" data-nav-tone="light">
       <div className="container">
         <div className="about-grid">
           <ScrollReveal>
             <div className="about-main">
-              <span className="section-label green">{t('about.label')}</span>
-              <h2 className="section-title">{t('about.title')}</h2>
+              <span className="section-label">{t('about.label')}</span>
+              <h2 className="section-title about-title">{t('about.title')}</h2>
               <p className="about-description">
                 {t('about.description')}
               </p>
-            <div className="mission-card">
-              <div className="mission-icon">
+            <div className="card mission-card">
+              <div className="icon-tile">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                   <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/>
                   <path d="M12 6v6l4 2"/>

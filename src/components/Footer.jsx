@@ -4,7 +4,7 @@ function Footer() {
   const { t } = useTranslation();
 
   return (
-    <footer className="footer">
+    <footer className="footer" data-nav-tone="dark">
       <div className="container">
         <div className="footer-main">
           <div className="footer-brand">

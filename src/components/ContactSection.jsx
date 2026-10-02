@@ -5,19 +5,19 @@ function ContactSection() {
   const { t } = useTranslation();
 
   return (
-    <section id="contact" className="contact">
+    <section id="contact" className="section section-dark contact" data-nav-tone="dark">
       <div className="container">
         <div className="contact-wrapper">
           <ScrollReveal>
             <div className="contact-header">
               <span className="section-label">{t('contact.label')}</span>
-              <h2 className="section-title">{t('contact.title')}</h2>
+              <h2 className="section-title contact-title">{t('contact.title')}</h2>
             </div>
           </ScrollReveal>
           <ScrollReveal delay={100}>
             <div className="contact-cards">
-            <div className="contact-card">
-              <div className="contact-icon">
+            <div className="card contact-card">
+              <div className="icon-tile contact-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                   <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
                   <circle cx="12" cy="10" r="3"/>
@@ -28,8 +28,8 @@ function ContactSection() {
                 <p>{t('contact.address.line1')}<br/>{t('contact.address.line2')}</p>
               </div>
             </div>
-            <div className="contact-card">
-              <div className="contact-icon">
+            <div className="card contact-card">
+              <div className="icon-tile contact-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                   <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
                   <polyline points="22,6 12,13 2,6"/>
@@ -37,7 +37,7 @@ function ContactSection() {
               </div>
               <div className="contact-info">
                 <h4>{t('contact.email.title')}</h4>
-                <p>support@rtrvr.xyz</p>
+                <a href="mailto:support@rtrvr.xyz">support@rtrvr.xyz</a>
                 </div>
               </div>
             </div>

@@ -5,10 +5,10 @@ function TestimonialsSection() {
   const { t } = useTranslation();
 
   return (
-    <section className="testimonials">
+    <section className="section section-dark testimonials" data-nav-tone="dark">
       <div className="container">
         <ScrollReveal>
-          <div className="testimonials-header">
+          <div className="section-header">
             <span className="section-label">{t('testimonials.label')}</span>
             <h2 className="section-title">{t('testimonials.title')}</h2>
             <p className="section-description">{t('testimonials.subtitle')}</p>
@@ -44,7 +44,7 @@ function TestimonialsSection() {
         <div className="testimonials-grid">
           {t('testimonials.items', { returnObjects: true }).map((item, index) => (
             <ScrollReveal key={index} delay={index * 100}>
-              <div className={`testimonial-card ${index === 1 ? 'featured' : ''}`}>
+              <div className={`card testimonial-card ${index === 1 ? 'featured' : ''}`}>
                 <div className="testimonial-header">
                   <div className="testimonial-avatar">{item.name.charAt(0)}</div>
                   <div className="testimonial-info">

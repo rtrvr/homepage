@@ -1,10 +1,14 @@
 import { useTranslation } from 'react-i18next';
 
-function Header({ scrolled, hidden, mobileMenuOpen, setMobileMenuOpen, changeLanguage, currentLang }) {
+function Header({ hidden, navBg, navTone, mobileMenuOpen, setMobileMenuOpen, changeLanguage, currentLang }) {
   const { t } = useTranslation();
 
   return (
-    <header className={`header ${scrolled ? 'scrolled' : ''} ${hidden ? 'hidden' : ''}`}>
+    <header
+      className={`header ${hidden ? 'hidden' : ''}`}
+      data-tone={navTone}
+      style={navBg ? { '--nav-bg': navBg } : undefined}
+    >
       <div className="container">
         <nav className="nav">
           <a href="/" className="logo">

@@ -7,15 +7,35 @@
     "contact": "Contact"
   },
   "hero": {
-    "badge": "AI-Powered Healthcare",
-    "title1": "Never Miss Your",
-    "title2": "Medication Again",
+    "eyebrow": "It's okay to forget",
+    "title1": "Pillo never",
+    "title2": "forgets.",
+    "lead": "When it's time for your meds, Pillo reaches out first.",
     "subtitle": "Trusted by 100K+ users — the AI-powered medication management app, Pillo",
     "cta": "Free Download",
     "stats": {
       "downloads": "Downloads",
       "rating": "App Rating",
       "reviews": "Reviews"
+    },
+    "notification": {
+      "now": "now",
+      "morning": {
+        "title": "Time for your morning meds",
+        "body": "Vitamin D · 1 tablet · after meals"
+      },
+      "noon": {
+        "title": "Time for your lunchtime meds",
+        "body": "Antacid · 1 packet · 30 min after meals"
+      },
+      "evening": {
+        "title": "Time for your evening meds",
+        "body": "Blood pressure · 1 tablet · 30 min after meals"
+      },
+      "night": {
+        "title": "Don't forget your bedtime meds",
+        "body": "Sleep aid · 1 tablet"
+      }
     }
   },
   "problem": {

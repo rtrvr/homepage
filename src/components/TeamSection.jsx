@@ -5,10 +5,10 @@ function TeamSection() {
   const { t } = useTranslation();
 
   return (
-    <section id="team" className="team-section">
+    <section id="team" className="section team-section" data-nav-tone="light">
       <div className="container">
         <ScrollReveal>
-          <div className="team-header">
+          <div className="section-header">
             <span className="section-label">{t('team.label')}</span>
             <h2 className="section-title">{t('team.title')}</h2>
             <p className="section-description">{t('team.subtitle')}</p>
@@ -18,7 +18,7 @@ function TeamSection() {
         <div className="team-grid">
           {t('team.members', { returnObjects: true }).map((member, index) => (
             <ScrollReveal key={index} delay={index * 100}>
-              <div className="team-card">
+              <div className="card team-card">
                 <div className="team-avatar">
                   {member.name.charAt(0).toUpperCase()}
                 </div>

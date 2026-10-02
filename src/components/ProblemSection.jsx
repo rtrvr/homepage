@@ -5,27 +5,25 @@ function ProblemSection() {
   const { t } = useTranslation();
 
   return (
-    <section className="problem">
+    <section className="section problem" data-nav-tone="light">
       <div className="container">
         <ScrollReveal>
-          <div className="problem-header">
+          <div className="section-header">
             <span className="section-label">{t('problem.label')}</span>
             <h2 className="section-title">{t('problem.title')}</h2>
-            <p className="problem-subtitle">{t('problem.subtitle')}</p>
+            <p className="section-description">{t('problem.subtitle')}</p>
           </div>
         </ScrollReveal>
 
         <div className="problem-content">
           <ScrollReveal delay={100}>
-            <div className="problem-description">
-              <p>{t('problem.description')}</p>
-            </div>
+            <p className="problem-statement">{t('problem.description')}</p>
           </ScrollReveal>
 
           <div className="problem-grid">
             <ScrollReveal delay={200}>
-              <div className="solution-card">
-                <div className="solution-icon">
+              <div className="card solution-card">
+                <div className="icon-tile">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                     <path d="M9 12l2 2 4-4"/>
                     <path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9c1.73 0 3.35.49 4.72 1.34"/>
@@ -37,7 +35,7 @@ function ProblemSection() {
             </ScrollReveal>
 
             <ScrollReveal delay={300}>
-              <div className="target-card">
+              <div className="card target-card">
                 <h3>{t('problem.target.title')}</h3>
                 <ul className="target-list">
                   {[1, 2, 3, 4].map((num) => (

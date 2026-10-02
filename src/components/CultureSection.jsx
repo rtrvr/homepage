@@ -52,11 +52,11 @@ function CultureSection() {
   const { t } = useTranslation();
 
   return (
-    <section id="culture" className="culture">
+    <section id="culture" className="section culture" data-nav-tone="light">
       <div className="container">
         <ScrollReveal>
-          <div className="culture-header">
-            <span className="section-label purple">{t('culture.label')}</span>
+          <div className="section-header">
+            <span className="section-label">{t('culture.label')}</span>
             <h2 className="section-title">{t('culture.title')}</h2>
             <p className="section-description">{t('culture.subtitle')}</p>
           </div>
