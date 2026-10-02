@@ -2,7 +2,9 @@ import { useTranslation } from 'react-i18next';
 import { ScrollReveal } from '../useScrollReveal';
 
 function ServiceSection() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  // 언어별 Play 스토어 이미지 (영어는 public/preview/en)
+  const screenshotDir = i18n.language === 'en' ? '/preview/en' : '/preview';
 
   return (
     <section id="service" className="section service" data-nav-tone="light">
@@ -60,7 +62,7 @@ function ServiceSection() {
                 {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
                   <div key={num} className="screenshot-item">
                     <img
-                      src={`/preview/pillo-${num}.webp`}
+                      src={`${screenshotDir}/pillo-${num}.webp`}
                       alt={`Pillo app screenshot ${num}`}
                       loading="lazy"
                     />
