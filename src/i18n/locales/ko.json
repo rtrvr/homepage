@@ -168,6 +168,11 @@
         "name": "Eli",
         "role": "iOS Developer",
         "description": "내가 쓰려고 만든 앱이 직업으로 이어졌고, 어쩌다 보니 계속하고 있어요. 내가 만든 게 누군가의 일상에 도움이 될 때, 보람을 느낍니다"
+      },
+      {
+        "name": "Jake",
+        "role": "Growth Marketer",
+        "description": "필로를 더 많은 사람에게 알리는 일을 합니다"
       }
     ]
   },
