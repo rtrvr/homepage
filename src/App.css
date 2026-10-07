@@ -1166,6 +1166,13 @@ html {
   border-radius: 50%;
   font-size: 26px;
   font-weight: 700;
+  overflow: hidden;
+}
+
+.team-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .team-grid > :nth-child(6n + 1) .team-avatar { background: var(--blue); color: #FFFFFF; }

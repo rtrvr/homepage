@@ -1,6 +1,15 @@
 import { useTranslation } from 'react-i18next';
 import { ScrollReveal } from '../useScrollReveal';
 
+// Profile photos in public/team/, keyed by member name (shared across locales)
+const AVATARS = {
+  Zach: '/team/zach.webp',
+  Ben: '/team/ben.webp',
+  Jackie: '/team/jackie.webp',
+  Jinukeu: '/team/jinukeu.webp',
+  Jake: '/team/jake.webp',
+};
+
 function TeamSection() {
   const { t } = useTranslation();
 
@@ -20,7 +29,11 @@ function TeamSection() {
             <ScrollReveal key={index} delay={index * 100}>
               <div className="card team-card">
                 <div className="team-avatar">
-                  {member.name.charAt(0).toUpperCase()}
+                  {AVATARS[member.name] ? (
+                    <img src={AVATARS[member.name]} alt={member.name} loading="lazy" />
+                  ) : (
+                    member.name.charAt(0).toUpperCase()
+                  )}
                 </div>
                 <div className="team-info">
                   <div className="team-name-row">
